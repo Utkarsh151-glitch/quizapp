@@ -1,0 +1,122 @@
+/* Body & Background */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(45deg, #f8f9fa, #cfd8dc);
+}
+
+/* App Container */
+.app {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+/* Header */
+h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Question Section */
+.question-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.question-count {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #888;
+}
+
+.question-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+/* Options Buttons */
+.options button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  margin: 10px 0;
+  width: 80%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.options button:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
+
+.selected {
+  background-color: #2ecc71;
+}
+
+.next-btn {
+  background-color: #2ecc71;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.next-btn:hover {
+  background-color: #27ae60;
+}
+
+/* Feedback Section */
+.feedback {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #e74c3c;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.score-section h2 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+}
+
+button {
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Restart Button */
+button:focus {
+  outline: none;
+}
