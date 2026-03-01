@@ -1,13 +1,9 @@
 {
-  "createdAt": "2026-03-01T10:22:20.168Z",
+  "createdAt": "2026-03-01T16:54:45.231Z",
   "entries": [
     {
-      "filePath": "package.json",
-      "originalContent": "{\r\n  \"name\": \"quiz-app\",\r\n  \"version\": \"0.1.0\",\r\n  \"private\": true,\r\n  \"dependencies\": {\r\n    \"@testing-library/dom\": \"^10.4.0\",\r\n    \"@testing-library/jest-dom\": \"^6.6.3\",\r\n    \"@testing-library/react\": \"^16.3.0\",\r\n    \"@testing-library/user-event\": \"^13.5.0\",\r\n    \"react\": \"^19.1.0\",\r\n    \"react-dom\": \"^19.1.0\",\r\n    \"react-scripts\": \"5.0.1\",\r\n    \"web-vitals\": \"^2.1.4\"\r\n  },\r\n  \"scripts\": {\r\n    \"start\": \"react-scripts start\",\r\n    \"build\": \"react-scripts build\",\r\n    \"test\": \"react-scripts test\",\r\n    \"eject\": \"react-scripts eject\"\r\n  },\r\n  \"eslintConfig\": {\r\n    \"extends\": [\r\n      \"react-app\",\r\n      \"react-app/jest\"\r\n    ]\r\n  },\r\n  \"browserslist\": {\r\n    \"production\": [\r\n      \">0.2%\",\r\n      \"not dead\",\r\n      \"not op_mini all\"\r\n    ],\r\n    \"development\": [\r\n      \"last 1 chrome version\",\r\n      \"last 1 firefox version\",\r\n      \"last 1 safari version\"\r\n    ]\r\n  }\r\n}\r\n"
-    },
-    {
       "filePath": "vercel.json",
-      "originalContent": ""
+      "originalContent": "{\r\n  \"version\": 2,\r\n  \"builds\": [\r\n    {\r\n      \"src\": \"index.js\",\r\n      \"use\": \"@vercel/node\"\r\n    }\r\n  ],\r\n  \"routes\": [\r\n    {\r\n      \"src\": \"/(.*)\",\r\n      \"dest\": \"/index.js\"\r\n    }\r\n  ]\r\n}\r\n"
     }
   ]
 }
